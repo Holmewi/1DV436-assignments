@@ -6,12 +6,15 @@
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://apis.google.com/js/client.js"></script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV-EDK-sxX3nAvY4WKEkW7f6hu8abtPBg&callback=initMap">
     </script>
   </head>
   <body>
+  <div id="id01"></div>
+
     <div id="authorize-div">
       <span>Authorize access to Gmail API</span>
       <button id="authorize-button" onclick="handleAuthClick(event)">
@@ -21,7 +24,11 @@
     <div id="map"></div>  
     <pre id="output"></pre>
 
+
+    <script type="text/javascript" src="src/GmailService.js"></script>
     <script type="text/javascript" src="src/GoogleMaps.js"></script>
     <script type="text/javascript" src="src/Quickstart.js"></script>
+    <script type="text/javascript" src="src/AppController.js"></script>
+    <script type="text/javascript" src="src/JsonIPConverter.js"></script>
   </body>
 </html>
