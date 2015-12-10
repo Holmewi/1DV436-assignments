@@ -5,7 +5,7 @@
 */
 
 var xmlhttp = new XMLHttpRequest();
-var key = '6a6d43b72de343f633fe5c4f763ab94754d261986dfcec7ac5069b272b6e2a34';
+var key = 'YOUR_API_KEY';
 var ip = '198.2.129.166';
 var url = 'http://api.ipinfodb.com/v3/ip-city/?key='+key+'&ip='+ip+'&format=json';
 
