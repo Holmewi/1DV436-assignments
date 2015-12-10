@@ -13,22 +13,20 @@
     </script>
   </head>
   <body>
-  <div id="id01"></div>
-
+  <div id="wrapper">
+    
+    <div id="map"></div> 
     <div id="authorize-div">
       <span>Authorize access to Gmail API</span>
       <button id="authorize-button" onclick="handleAuthClick(event)">
         Authorize
       </button>
     </div>
-    <div id="map"></div>  
     <pre id="output"></pre>
-
-
+    </div>
     <script type="text/javascript" src="src/GmailService.js"></script>
     <script type="text/javascript" src="src/GoogleMaps.js"></script>
     <script type="text/javascript" src="src/Quickstart.js"></script>
-    <script type="text/javascript" src="src/AppController.js"></script>
     <script type="text/javascript" src="src/JsonIPConverter.js"></script>
   </body>
 </html>
