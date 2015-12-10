@@ -1,6 +1,6 @@
 // Your Client ID can be retrieved from your project in the Google
 // Developer Console, https://console.developers.google.com
-var CLIENT_ID = '722573397557-81vqcdusaiv7aqhcares10r5dpnkfisp.apps.googleusercontent.com';
+var CLIENT_ID = '<CLIEND_ID>';
 
 var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 
